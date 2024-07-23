@@ -37,7 +37,7 @@ export default function App() {
   }, [Bill, TipPercentage, PeopleCount, calculate]);
 
   return (
-    <div className="bg-white w-full max-w-[920px] rounded-3xl flex flex-col">
+    <div className="bg-white w-full max-w-[920px] rounded-3xl flex md:flex-row flex-col">
       <div className="md:w-1/2 w-full md:p-12 p-6">
         <Input
           title="Bill"
