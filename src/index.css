@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: SpaceMono-Bold;
+    src: url("/SpaceMono-Bold.ttf");
+}
+
+body {
+    font-family: SpaceMono-Bold;
+    color: #5E7A7D;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
